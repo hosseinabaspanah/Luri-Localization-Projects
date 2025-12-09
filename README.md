@@ -14,10 +14,10 @@ This repository serves as an official reference for:
 Each project has its own folder with a dedicated README, assets (screenshots), and version notes.
 
 ## 📁 Structure
-/Projects
-    /Firefox
-        /screenshots
+/projects
+    /firefox
         README.md
+        /screenshots
 
 README.md
 LICENSE

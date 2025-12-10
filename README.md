@@ -37,7 +37,8 @@ If you notice any issues with the translations or have a suggestion for improvem
 
 ## 📬 Contact
 **Hossein Abaspanah**
-Telegram: **t.me/hosseinabaspanah**
+
+Telegram: **hosseinabaspanah**
 Email: **hosseinabaspanah@gmail.com**
 
 ## 📄 License

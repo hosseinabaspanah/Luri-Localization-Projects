@@ -14,8 +14,6 @@ This repository serves as an official reference for:
 Each project has its own dedicated folder containing a README file, assets (screenshots), and version notes.
 
 ## 📁 Structure
-Usa il codice con cautela.
-
 /projects
 /firefox
 README.md
@@ -31,7 +29,7 @@ LICENSE
 *   To preserve linguistic standards across modern digital platforms
 
 ## 💬 Feedback & Contribution
-If you notice any issues with the translations or have a suggestion for improvement, please report it via the **[Issues](github.com)** section on GitHub. Your participation is greatly appreciated and helps improve the quality of the Luri projects.
+If you notice any issues with the translations or have a suggestion for improvement, please report it via the **[Issues](https://github.com/hosseinabaspanah/Luri-Localization-Projects/issues)** section on GitHub. Your participation is greatly appreciated and helps improve the quality of the Luri projects.
 
 ## 🛠 How to use
 *   Visit a project's folder to find the detailed README with contribution notes, links to translation platforms (Weblate/Crowdin), and screenshots.

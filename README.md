@@ -1,6 +1,6 @@
 # Luri Localization Projects
 
-This repository contains a collection of software localization projects translated and adapted into **Luri** by **Hossein Abaspanah**.
+This repository contains a collection of software localization projects translated and adapted into **Luri Language** by **Hossein Abaspanah**.
 
 The goal is to preserve, support, and modernize the Luri language by making digital tools accessible for Luri-speaking communities.
 

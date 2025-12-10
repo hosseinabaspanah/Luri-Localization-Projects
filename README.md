@@ -14,7 +14,7 @@ This repository serves as an official reference for:
 Each project has its own dedicated folder containing a README file, assets (screenshots), and version notes.
 
 ## 📁 Structure
-/projects
+projects
 /firefox
 README.md
 /screenshots
@@ -39,6 +39,7 @@ If you notice any issues with the translations or have a suggestion for improvem
 **Hossein Abaspanah**
 
 Telegram: **hosseinabaspanah**
+
 Email: **hosseinabaspanah@gmail.com**
 
 ## 📄 License

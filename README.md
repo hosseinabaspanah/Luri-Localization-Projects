@@ -38,7 +38,7 @@ If you notice any issues with the translations or have a suggestion for improvem
 ## 📬 Contact
 **Hossein Abaspanah**
 
-Telegram: **hosseinabaspanah**
+Telegram: **[hosseinabaspanah](t.me/hosseinabaspanah)**
 
 Email: **hosseinabaspanah@gmail.com**
 

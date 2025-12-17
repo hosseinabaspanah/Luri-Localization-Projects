@@ -4,6 +4,10 @@ This repository contains a collection of software localization projects translat
 
 The goal is to preserve, support, and modernize the Luri language by making digital tools accessible for Luri-speaking communities.
 
+This repository documents my localization contributions.
+All software, trademarks, and source code belong to their respective projects.
+This repository does not claim ownership of any listed project.
+
 ## 📌 About This Repository
 This repository serves as an official reference for:
 *   Luri language localizations of apps, software, and digital interfaces

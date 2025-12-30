@@ -29,7 +29,7 @@ Attribution and contribution records are available on the platform.
 
 ## Screenshots
 
-Visual references are available in the screenshots/ directory.
+Visual references are available in the /screenshots directory.
 
 ---
 

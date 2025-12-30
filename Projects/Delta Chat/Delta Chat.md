@@ -13,7 +13,7 @@ Documentation of the Luri language localization for Delta Chat.
 
 ## Localization Platform
 
-This localization was contributed through Delta Chat’s official translation platform [Transifex](https://explore.transifex.com/delta-chat/).
+This localization was contributed through Delta Chat’s official translation platform on [Transifex](https://explore.transifex.com/delta-chat/).
 
 ## Scope
 

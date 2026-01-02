@@ -13,7 +13,7 @@ Documentation of the Luri language localization for v2rayNG (Android).
 
 ## Localization Platform
 
-This localization was contributed directly via the official GitHub repository through pull requests.
+This localization was contributed directly via the [official GitHub repository](https://github.com/2dust/v2rayNG) through pull requests.
 
 ## Scope
 

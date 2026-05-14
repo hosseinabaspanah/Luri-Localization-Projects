@@ -29,7 +29,7 @@ LICENSE
 ## 🎯 Purpose
 *   To provide official access to Luri-localized software
 *   To maintain transparency about who creates and maintains these localizations
-*   To allow developers or contributors to reuse or extend the Luri translations
+*   To allow developers or contributors to use or extend the Luri translations
 *   To preserve linguistic standards across modern digital platforms
 
 ## 💬 Feedback & Contribution

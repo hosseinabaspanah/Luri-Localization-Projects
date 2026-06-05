@@ -5,10 +5,11 @@ Documentation of the Luri language localization for Delta Chat.
 ## Project Details
 
 - Application: Delta Chat
-- Platform: Android, Desktop
+- Platform: Android, Windows
 - Type: Open-source
 - Localization: User Interface (UI)
 - Language: Luri Bakhtiari
+- First published in the public version: Android (1.46.8), Windows (1.48)
 - Role: Localization Manager / Translator
 
 ## Localization Platform

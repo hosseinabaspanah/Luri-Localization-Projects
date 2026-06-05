@@ -5,10 +5,11 @@ Documentation of the Luri language localization for Mozilla Firefox (Android).
 ## Project Details
 
 - Application: Mozilla Firefox
-- Platform: Android
+- Platform: Android, Windows
 - Type: Open-source
 - Localization: User Interface (UI)
 - Language: Luri Bakhtiari
+- First published in the public version: Android (137 later), Windows (published only on Nightly version)
 - Role: Localization Manager / Translator
 
 ## Localization Platform

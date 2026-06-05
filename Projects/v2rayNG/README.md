@@ -9,6 +9,7 @@ Documentation of the Luri language localization for v2rayNG (Android).
 - Type: Open-source
 - Localization: User Interface (UI)
 - Language: Luri Bakhtiari
+- First published in the public version: Android (1.9.22)
 - Role: Translator
 
 ## Localization Platform

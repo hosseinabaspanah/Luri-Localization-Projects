@@ -52,4 +52,4 @@ Email: **hosseinabaspanah@gmail.com**
 If you'd like to support the project, you can find details on how to donate in the [DONATE.md](DONATE.md) file.
 
 ## 📄 License
-This repository content is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)**. See the `LICENSE` file for full details.
+Original documentation and content created for this repository are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0). Third-party software, trademarks, and project assets remain the property of their respective owners.

@@ -27,10 +27,12 @@ README.md
 LICENSE
 
 ## 🎯 Purpose
-*   To provide official access to Luri-localized software
-*   To maintain transparency about who creates and maintains these localizations
-*   To allow developers or contributors to use or extend the Luri translations
-*   To preserve linguistic standards across modern digital platforms
+
+- To provide a central reference for Luri localization projects created, translated, or maintained by Hossein Abaspanah
+- To document and preserve my localization contributions to software, apps, and digital platforms in the Luri language
+- To maintain transparency about the creation and maintenance of these localizations
+- To allow developers or contributors to use or extend the Luri translations where permitted
+- To preserve linguistic standards across modern digital platforms
 
 ## 💬 Feedback & Contribution
 If you notice any issues with the translations or have a suggestion for improvement, please report it via the **[Issues](https://github.com/hosseinabaspanah/Luri-Localization-Projects/issues)** section on GitHub. Your participation is greatly appreciated and helps improve the quality of the Luri projects.

@@ -39,7 +39,7 @@ If you notice any issues with the translations or have a suggestion for improvem
 
 ## 🛠 How to use
 *   Visit a project's folder to find the detailed README with contribution notes, links to translation platforms (Weblate/Transifex/Crowdin), and screenshots.
-*   If you are a developer and wish to include a Luri translation, feel free to contact me or open an issues / pull request.
+*   If you are a developer and wish to include a Luri translation, feel free to contact me or open an issues.
 
 ## 📬 Contact
 **Hossein Abaspanah**

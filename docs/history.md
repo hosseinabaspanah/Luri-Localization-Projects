@@ -6,7 +6,7 @@ This repository is created to document and preserve a part of the history of the
 
 ## Overview
 
-This collection is the result of localization and translation efforts carried out by Hossein Abbaspanah in the field of software localization into the Luri language. These activities began in 2021 in a fully voluntary, independent, and individual capacity, without any institutional, organizational, corporate, or group support.
+This collection is the result of localization and translation efforts carried out by Hossein Abaspanah in the field of software localization into the Luri language. These activities began in 2021 in a fully voluntary, independent, and individual capacity, without any institutional, organizational, corporate, or group support.
 
 At the beginning of this path, there was no organized team or structured effort for Luri localization in software, and these activities were initiated and driven personally through individual effort.
 

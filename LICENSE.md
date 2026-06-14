@@ -1,6 +1,6 @@
 Creative Commons Attribution 4.0 International
 
-Copyright (c) [2025] Hossein Abaspanah
+Copyright (c) 2021–2026 Hossein Abaspanah
 
 You are free to:
 

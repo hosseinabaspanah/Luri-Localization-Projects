@@ -1,0 +1,37 @@
+name: Luri Translation Issue
+description: Report or suggest a Luri translation / گزارش یا پیشنهاد ترجمه لُری
+title: "[LURI] "
+labels: ["translation"]
+
+body:
+  - type: textarea
+    id: original
+    attributes:
+      label: Original text / متن اصلی
+      placeholder: Example: File not found / مثال: فایل پیدا نشد
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Current Luri translation / ترجمه فعلی لُری
+      placeholder: The current translation in the project / ترجمه فعلی داخل پروژه
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested translation / پیشنهاد شما
+      placeholder: Your improved translation / ترجمه پیشنهادی شما
+    validations:
+      required: true
+
+  - type: textarea
+    id: note
+    attributes:
+      label: Notes (optional) / توضیحات (اختیاری)
+      description: Why this change is needed / اگر خواستی دلیل یا توضیح بنویس
+    validations:
+      required: false

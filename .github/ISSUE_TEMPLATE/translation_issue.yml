@@ -1,66 +1,89 @@
 name: Luri Translation Issue
-description: Report translation problems or suggest improvements / گزارش یا پیشنهاد اصلاح ترجمه لُری
+description: Report a translation problem or suggest a better version / گزارش مشکل یا پیشنهاد اصلاح ترجمه لُری
 
 title: "[LURI] "
 labels: ["translation"]
 
 body:
+  - type: input
+    id: project
+    attributes:
+      label: "Project name / اسم پروژه"
+      description: "اسم پروژه‌ای که مشکل در آن دیده شده را بنویس / Enter the project where you saw the issue"
+      placeholder: "Firefox / V2rayNG"
+    validations:
+      required: true
+
   - type: dropdown
     id: issue_type
     attributes:
       label: "Issue type / نوع مشکل"
-      description: |
-        Please select the type of issue / لطفاً نوع مشکل را انتخاب کنید
+      description: "یک گزینه را انتخاب کنید / Select one option"
       options:
-        - "Grammar issue / اشتباه گرامری"
-        - "Wrong translation / ترجمه اشتباه"
-        - "Terminology issue / واژه‌گزینی نامناسب"
+        - "Grammar / اشتباه گرامری"
+        - "Wrong meaning / معنی اشتباه"
+        - "Bad wording / انتخاب کلمه نامناسب"
+    validations:
+      required: true
 
   - type: markdown
     attributes:
       value: |
-        ## 🧠 Guide / راهنما
+        ## 🧠 راهنما / Guide
 
-        ### 1) Grammar issue / اشتباه گرامری
-        Use this when the sentence structure is incorrect.  
-        از این گزینه وقتی استفاده کن که جمله از نظر دستوری مشکل دارد.
-
-        **Example / مثال:**
-        - ❌ He are coming / او هستند می‌آید  
-        - ✔ He is coming / او در حال آمدن است  
+        فقط یکی از گزینه‌ها را انتخاب کنید / Choose only one option.
 
         ---
 
-        ### 2) Wrong translation / ترجمه اشتباه
-        Use this when the meaning is incorrect or misleading.  
-        وقتی معنی جمله اشتباه ترجمه شده باشد.
+        ### 🟡 Grammar / اشتباه گرامری
+        جمله ترجمه شده ولی ساختار آن درست یا طبیعی نیست.  
+        The sentence is translated but the structure is not natural or correct.
 
-        **Example / مثال:**
+        **مثال / Example:**
+        - ❌ من فایل را دانلود کردن است  
+        - ✔ من در حال دانلود فایل هستم  
+
+        - ❌ او هستند می‌رود  
+        - ✔ او در حال رفتن است  
+
+        ---
+
+        ### 🔴 Wrong meaning / معنی اشتباه
+        معنی جمله اشتباه منتقل شده است.  
+        The meaning of the sentence is incorrect.
+
+        **مثال / Example:**
         - ❌ Save = حذف کردن  
         - ✔ Save = ذخیره کردن  
 
+        - ❌ Delete = ذخیره کردن  
+        - ✔ Delete = حذف کردن  
+
         ---
 
-        ### 3) Terminology issue / واژه‌گزینی نامناسب
-        Use this when the translation is correct but the chosen word is not standard or consistent.  
-        وقتی ترجمه درست است اما واژه مناسب یا یکدست نیست.
+        ### 🔵 Bad wording / انتخاب کلمه نامناسب
+        معنی درست است ولی انتخاب واژه مناسب یا یکدست نیست.  
+        The meaning is correct but the word choice is not consistent or natural.
 
-        **Example / مثال:**
-        - "Settings" → تنظیمات / پیکربندی (باید یکی یکدست باشد)
+        **مثال / Example:**
+        - Settings = تنظیمات / پیکربندی (باید یکی استفاده شود / choose one)
+        - File = فایل / پرونده (باید یکدست شود / must be consistent)
 
   - type: textarea
     id: current
     attributes:
       label: "Current translation / ترجمه فعلی"
-      description: "Paste the current Luri translation / ترجمه فعلی را وارد کنید"
+      description: "ترجمه فعلی را وارد کنید / Paste the current translation"
+      placeholder: "مثال: فایل در حال باز شدن است / Example: file is opening"
     validations:
       required: true
 
   - type: textarea
     id: suggestion
     attributes:
-      label: "Suggested fix / پیشنهاد اصلاح"
-      description: "Your improved version / نسخه پیشنهادی شما"
+      label: "Suggested fix / پیشنهاد شما"
+      description: "نسخه بهتر را بنویسید / Write your improved version"
+      placeholder: "مثال: در حال باز کردن فایل / Example: opening file"
     validations:
       required: true
 
@@ -68,6 +91,6 @@ body:
     id: note
     attributes:
       label: "Notes (optional) / توضیحات (اختیاری)"
-      description: "Extra explanation if needed / توضیحات اضافه (اختیاری)"
+      description: "اگر خواستی توضیح بده / Optional explanation"
     validations:
       required: false

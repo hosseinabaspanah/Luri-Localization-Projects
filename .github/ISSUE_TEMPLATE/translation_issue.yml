@@ -1,7 +1,7 @@
 name: Luri Translation Issue
 description: Report a translation problem or suggest a better version / گزارش مشکل یا پیشنهاد اصلاح ترجمه لُری
 
-title: ["Luri"]
+title: "[LURI] "
 labels: ["translation"]
 
 body:
@@ -10,7 +10,7 @@ body:
     attributes:
       label: "Project name / اسم پروژه"
       description: "اسم پروژه‌ای که مشکل در آن دیده شده را بنویس / Enter the project where you saw the issue"
-      placeholder: "Firefox / V2rayNG"
+      placeholder: "Firefox / دلتا چت / Android app"
     validations:
       required: true
 

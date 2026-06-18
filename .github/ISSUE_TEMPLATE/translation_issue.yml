@@ -1,7 +1,7 @@
 name: Luri Translation Issue
 description: Report a translation problem or suggest a better version / گزارش مشکل یا پیشنهاد اصلاح ترجمه لُری
 
-title: ""
+title: ["Luri"]
 labels: ["translation"]
 
 body:

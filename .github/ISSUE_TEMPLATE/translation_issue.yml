@@ -1,30 +1,66 @@
 name: Luri Translation Issue
-description: Report or suggest a Luri translation / گزارش یا پیشنهاد ترجمه لُری
+description: Report translation problems or suggest improvements / گزارش یا پیشنهاد اصلاح ترجمه لُری
+
 title: "[LURI] "
 labels: ["translation"]
 
 body:
-  - type: textarea
-    id: original
+  - type: dropdown
+    id: issue_type
     attributes:
-      label: "Original text / متن اصلی"
-      placeholder: "Example: File not found / مثال: فایل پیدا نشد"
-    validations:
-      required: true
+      label: "Issue type / نوع مشکل"
+      description: |
+        Please select the type of issue / لطفاً نوع مشکل را انتخاب کنید
+      options:
+        - "Grammar issue / اشتباه گرامری"
+        - "Wrong translation / ترجمه اشتباه"
+        - "Terminology issue / واژه‌گزینی نامناسب"
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 🧠 Guide / راهنما
+
+        ### 1) Grammar issue / اشتباه گرامری
+        Use this when the sentence structure is incorrect.  
+        از این گزینه وقتی استفاده کن که جمله از نظر دستوری مشکل دارد.
+
+        **Example / مثال:**
+        - ❌ He are coming / او هستند می‌آید  
+        - ✔ He is coming / او در حال آمدن است  
+
+        ---
+
+        ### 2) Wrong translation / ترجمه اشتباه
+        Use this when the meaning is incorrect or misleading.  
+        وقتی معنی جمله اشتباه ترجمه شده باشد.
+
+        **Example / مثال:**
+        - ❌ Save = حذف کردن  
+        - ✔ Save = ذخیره کردن  
+
+        ---
+
+        ### 3) Terminology issue / واژه‌گزینی نامناسب
+        Use this when the translation is correct but the chosen word is not standard or consistent.  
+        وقتی ترجمه درست است اما واژه مناسب یا یکدست نیست.
+
+        **Example / مثال:**
+        - "Settings" → تنظیمات / پیکربندی (باید یکی یکدست باشد)
 
   - type: textarea
     id: current
     attributes:
-      label: "Current Luri translation / ترجمه فعلی لُری"
-      placeholder: "The current translation in the project / ترجمه فعلی داخل پروژه"
+      label: "Current translation / ترجمه فعلی"
+      description: "Paste the current Luri translation / ترجمه فعلی را وارد کنید"
     validations:
       required: true
 
   - type: textarea
     id: suggestion
     attributes:
-      label: "Suggested translation / پیشنهاد شما"
-      placeholder: "Your improved translation / ترجمه پیشنهادی شما"
+      label: "Suggested fix / پیشنهاد اصلاح"
+      description: "Your improved version / نسخه پیشنهادی شما"
     validations:
       required: true
 
@@ -32,6 +68,6 @@ body:
     id: note
     attributes:
       label: "Notes (optional) / توضیحات (اختیاری)"
-      description: "Why this change is needed / اگر خواستی دلیل یا توضیح بنویس"
+      description: "Extra explanation if needed / توضیحات اضافه (اختیاری)"
     validations:
       required: false

@@ -10,7 +10,7 @@ body:
     attributes:
       label: "Project name / اسم پروژه"
       description: "اسم پروژه‌ای که مشکل در آن دیده شده را بنویس / Enter the project where you saw the issue"
-      placeholder: "Firefox / دلتا چت / Android app"
+      placeholder: "Firefox / V2rayNg"
     validations:
       required: true
 

@@ -10,7 +10,7 @@ body:
     attributes:
       label: "Project name / اسم پروژه"
       description: "اسم پروژه‌ای که مشکل در آن دیده شده را بنویس / Enter the project where you saw the issue"
-      placeholder: "Firefox / V2rayNg"
+      placeholder: "Firefox / V2rayNG"
     validations:
       required: true
 
